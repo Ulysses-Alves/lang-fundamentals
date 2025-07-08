@@ -1,0 +1,1 @@
+Um repositório com o objetivo de ser um local de aprendizagem dos fundamentos das linguagens de programação que mais utilizo. Apesar de ter experiência com estas linguagens existem lacunas no meu conhecimento, que pretendo colmatar percorrendo as propriedades, métodos e eventos de cada linguagem, mesmo as que já conheço, para garantir uma compreensão completa.
