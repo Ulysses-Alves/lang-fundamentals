@@ -3,7 +3,10 @@
 
 <!-- the html tag defines the whole of an html doc, everything must be nested within it -->
 <html>
-
+    <!-- the head tag is a container for metadata -->
+    <head>
+        <title>This tag adds a title to a page</title>
+    </head>
 <!-- the body tag defines the visible part of an html doc,
   basically if something is nested within the body it will appear to the user -->
 <body>
@@ -86,6 +89,38 @@ I am the content of this paragraph element.
 <br>
 <sup>Superscript text </sup>
 <br>
+
+<p>Image maps are used to create clickable areas within an image</p>
+        <!-- 
+
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+        <map name="workmap">
+            <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+        </map>
+
+        --> 
+        
+        <p>A picture element contains one or more source elements, the picture element is used to display different images for different devices or screen sizes.</p>
+
+        <!--
+        
+            this picture element offers different formats for the browser 
+            <picture>
+                <source srcset="img_avatar.png">
+                <source srcset="img_girl.jpg">
+                <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+            </picture>
+
+            this element offers different images depeneding on size
+            
+            <picture>
+                <source media="(min-width: 650px)" srcset="img_food.jpg">
+                <source media="(min-width: 465px)" srcset="img_car.jpg">
+                <img src="img_girl.jpg">
+            </picture>
+
+        -->
 
 </body>
 

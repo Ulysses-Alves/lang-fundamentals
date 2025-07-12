@@ -2,7 +2,7 @@ ctrl+p = open palette for easy access to other commands and to files
 
 ctrl+shift+. = a better find command
 
-# in the command palette to search the entire codebase
+'#' in the command palette to search the entire codebase
 
 shift+arrow key to move word by word
 
