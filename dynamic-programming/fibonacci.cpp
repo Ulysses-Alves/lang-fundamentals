@@ -36,6 +36,15 @@ int fibo(int n) {
 }
 
 // Memoized 
+
+// AI Review
+
+// No Negative Input Handling
+// Memory Management: vector or unordered_map for safer memory management & dynamic sizing
+// Returning -1 for n >= SIZE is ambiguous, use exceptions, or error-handling mechanism
+// Avoid global variables
+// Fixed array size
+
 int fiboM(int n, int memo[]) {
 
     if(n >= SIZE){
@@ -57,3 +66,8 @@ int fiboM(int n, int memo[]) {
     memo[n] = fiboM(n - 1, memo) + fiboM(n - 2, memo);
     return memo[n];
 }
+
+// Next Time
+
+// Try Iterative Approach next time
+// Create fixed version

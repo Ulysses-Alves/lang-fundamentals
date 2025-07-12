@@ -10,6 +10,12 @@ def fibo(n):
     return fibo(n-1) + fibo(n-2)
 
 # Memoized, with dictionary
+
+# AI Review
+# Mutable Default Argument: Avoid mutable default arguments. Instead, initialize memo as None and create a new dictionary inside the function if needed
+# No Input Validation: Add a check to handle negative inputs
+# Use Iterative Approach for more effeciant space complexity
+
 def fiboMemoD(n, memo = {}):
 
     if n == 0:
@@ -25,4 +31,8 @@ def fiboMemoD(n, memo = {}):
 
     return memo[n]
 
-# Memoize with list next time
+# Next Time
+
+# Memoize with list
+# Try Iterative Approach
+# Create fixed version
